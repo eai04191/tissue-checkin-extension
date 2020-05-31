@@ -6,7 +6,13 @@
     "description": "Adds a Tissue checkin button.",
 
     "icons": {
-        "180": "icons/180.png"
+        "32": "icons/32.png",
+        "48": "icons/48.png",
+        "64": "icons/64.png",
+        "96": "icons/96.png",
+        "128": "icons/128.png",
+        "256": "icons/256.png",
+        "512": "icons/512.png"
     },
 
     "permissions": ["activeTab"],
@@ -17,7 +23,15 @@
     },
 
     "browser_action": {
-        "default_icon": "icons/180.png",
+        "default_icon": {
+            "32": "icons/32.png",
+            "48": "icons/48.png",
+            "64": "icons/64.png",
+            "96": "icons/96.png",
+            "128": "icons/128.png",
+            "256": "icons/256.png",
+            "512": "icons/512.png"
+        },
         "default_title": "Tissue Checkin"
     }
 }
