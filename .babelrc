@@ -1,0 +1,4 @@
+{
+    "plugins": ["@babel/plugin-transform-named-capturing-groups-regex"],
+    "presets": ["@babel/preset-env"]
+}
