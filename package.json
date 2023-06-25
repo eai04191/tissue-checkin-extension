@@ -35,5 +35,8 @@
     },
     "dependencies": {
         "webextension-polyfill-ts": "^0.16.0"
+    },
+    "volta": {
+        "node": "16.20.1"
     }
 }
