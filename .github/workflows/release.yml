@@ -9,20 +9,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: pnpm/action-setup@v4
-
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: "npm"
+      - uses: oven-sh/setup-bun@v2
 
       - name: Install dependencies
-        run: npm install
+        run: bun install
 
       - name: Zip extensions
         run: |
-          npm run zip
-          npm run zip:firefox
+          bun run zip
+          bun run zip:firefox
 
       - name: Submit to stores
         run: |
