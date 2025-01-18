@@ -2,7 +2,7 @@
     "name": "tissue-checkin-extension",
     "description": "Adds a Tissue checkin button.",
     "private": true,
-    "version": "2.1.1",
+    "version": "2.1.2",
     "type": "module",
     "scripts": {
         "dev": "wxt",
