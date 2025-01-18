@@ -4,7 +4,7 @@ import { defineConfig } from "wxt";
 export default defineConfig({
     manifest: ({ browser }) => {
         return {
-            permissions: ["tabs"],
+            permissions: ["activeTab"],
             action: {
                 default_title: "Tissue Checkin",
             },
