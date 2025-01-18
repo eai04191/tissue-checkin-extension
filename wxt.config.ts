@@ -3,9 +3,8 @@ import { defineConfig } from "wxt";
 // See https://wxt.dev/api/config.html
 export default defineConfig({
     manifest: ({ browser }) => {
-        const permissions = browser === "firefox" ? ["tabs"] : [];
         return {
-            permissions,
+            permissions: ["tabs"],
             action: {
                 default_title: "Tissue Checkin",
             },
